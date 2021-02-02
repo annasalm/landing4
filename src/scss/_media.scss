@@ -1,0 +1,49 @@
+@media (max-width: 1250px){
+
+    .main-wrapper {
+        padding:20px;
+    }
+    header {
+        a{font-size: 15px;}
+    }
+    .fivehundret_usd {
+        h2{
+            font-size: 120px;
+        }
+    }
+}
+
+
+@media (max-width: 1110px){
+    header {
+        a{font-size: 12px;}
+    }
+
+    .preferences_block {
+        &:last-child {
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media (max-width: 780px){
+
+    .preferences_block {
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    .window {
+        margin: 0 ;
+    }
+    
+    .women {
+        background: url("../img/black_bgr.png") top center;
+        min-height: 30px;
+        color:white;
+    }
+
+
+}
