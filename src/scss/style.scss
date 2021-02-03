@@ -71,8 +71,30 @@ header {
     .main-menu {
         display: flex;
         justify-content: space-between;
+
+
+
+        .header_links {
+            @include middle-text;
+            padding-top: 0.5em;
+
+            a{
+                margin-right: 50px;
+                
+                img{
+                    display: inline-block;
+                    margin-right: 6px;
+                    margin-top: 0.1em;
+                }
+            }
+        }
+
         
-        ul{
+    }
+
+
+        
+        /* a{
             display: flex;
             justify-content: space-between;
             align-self:center;
@@ -81,19 +103,15 @@ header {
             li{
                 margin-right: 50px;
                 display: block;
-
-                a{
-                    display: table-cell;
-                    vertical-align: middle;
                 }
                 img{
                     margin-right: 7px;
                     display: inline-block;
                 }
             }
-        }
+        } */
 
-    }
+    /* } */
 }
 .women {
     background: url('../img/women-bgr.png') bottom 0% right 25% no-repeat, url('../img/black_bgr.png') center center/cover no-repeat ;
